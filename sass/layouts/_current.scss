@@ -1,0 +1,12 @@
+.current::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    background: $accent-color;
+    border-radius: 2px;
+    height: 4px;
+  
+  }
+  

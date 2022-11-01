@@ -33,6 +33,16 @@
   margin-right: 93px;
   padding: 24px 0;
 
+  @media screen and (min-width:480px) {
+  width: 480px;
+  margin-right: 276px;
+  }
+
+ @media screen and (max-width:479px) {
+  width: 480px;
+  margin-right: calc(100%-(134px-40px));
+  }   
+ 
 }
 
 .logo__big {

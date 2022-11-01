@@ -16,21 +16,25 @@ ol {
 
 img {
   display: block;
+  
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   background-color: $basic-fon;
   color: $main-color;
+  margin: 0 auto;
 
   @media  (max-width: 479px) {
     background-color: cadetblue;
+   
   }
 
   @media  ( min-width: 480px) {
   
-      background-color: yellow;
   
+    background-color: yellow;
+     
   }
 
   @media  ( min-width: 768px) {

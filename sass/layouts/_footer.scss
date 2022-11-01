@@ -11,25 +11,52 @@
   
  @media screen and (max-width: 479px) {
   display: block;
- }
+   text-align: center;
+//  margin-left: 0;
+//  margin-right: 0; 
+}
 
  @media screen and (min-width: 480px) {
   display: block;
+   text-align: center;
+  // margin-left: 0;
+  // margin-right: 0;
  }
 
  @media screen and (min-width: 768px) {
-  
+  display: flex;
+  flex-wrap: wrap;
+
  }
 
    
  @media screen and (min-width: 1200px) {
-  
+  display: flex;
+  text-align: start;
  }
 
 }
 
 .footer-container {
   align-items: baseline;
+  @media screen and (max-width: 479px) {
+    margin-bottom: 60px;
+  }
+  
+   @media screen and (min-width: 480px) {
+    margin-bottom: 60px;
+   }
+
+   @media screen and (min-width: 768px) {
+    margin-bottom: 60px;
+    margin-right: 165px;
+    margin-left: 76px;
+  
+   }
+    
+ @media screen and (min-width: 1200px) {
+  margin: 0;
+ }
 }
 
 
@@ -40,6 +67,18 @@
 
 .footer-list {
   margin-right: 70px;
+
+  @media screen and (max-width: 479px) {
+    margin-right: 0;
+  }
+  
+   @media screen and (min-width: 480px) {
+    margin-right: 0;
+   }
+   @media screen and (min-width: 1200px) {
+    margin-right: 70px;
+   }
+
 }
 
 .footer-link {
@@ -78,6 +117,15 @@
 
 .social {
   display: inline-block;
+
+  @media screen and (max-width: 479px) {
+    margin-bottom: 60px;
+  }
+  
+   @media screen and (min-width: 480px) {
+    margin-bottom: 60px;
+   }
+
 }
 
 .social-title {
@@ -88,13 +136,28 @@
   text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 20px;
+  @media screen and (max-width: 479px) {
+    text-align: center;
+  }
+  
+   @media screen and (min-width: 480px) {
+    text-align: center;
+   }
+
+
 }
 
 
 /*------footer-subscription ----- */
 .footer-subscription {
   // display: flex;
-  min-width: 570px;
+  // min-width: 570px;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    min-width: 570px;
+   }
+  
 }
 .footer-subscription-text {
   font-weight: 700;
@@ -117,12 +180,40 @@
   color: #ffffff;
   padding-left: 16px;
   margin-right: 12px;
+  @media screen and (max-width: 479px) {
+    margin-bottom: 20px;
+    
+   }
+   
+    @media screen and (min-width: 480px) {
+      margin-bottom: 20px;
+    }
+ 
+
+
 }
 .subscription-block {
-  margin-left: 93px;
+  // margin-left: 93px;
+
+  @media screen and (max-width: 479px) {
+   display: block;
+   margin: 0 auto;
+  }
+  
+   @media screen and (min-width: 480px) {
+    display: block;
+    margin: 0 auto;
+   }
+
+   @media screen and (min-width: 1200px) {
+    margin-left: 93px;
+   }
+
 }
 
 .footer-subscription-btn {
+  margin: 0 auto;
+
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -147,7 +238,17 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   }
 
+  @media screen and (max-width: 479px) {
+    // margin-left: 140px;
+    // margin-right: 140px;
+   
 
+   }
+   
+    @media screen and (min-width: 480px) {
+     
+    }
+ 
 
 }
 

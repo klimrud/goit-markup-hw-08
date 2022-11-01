@@ -1,7 +1,30 @@
 .gallery {
-  display: flex;
-  flex-wrap: wrap;
+  // display: flex;
+  display: block;
+//  flex-wrap: wrap;
   gap: 30px;
+  
+  @media  (max-width: 479px) {
+    display: flex;
+   flex-wrap: wrap;
+    
+   }
+
+
+ @media screen and (min-width: 480px) {
+   display: flex;
+   flex-wrap: wrap;
+    
+   }
+
+@media screen and (min-width: 768px) {
+  display: flex;
+  justify-content: center;
+
+ } 
+
+
+
 }
 
 .gallery-item {

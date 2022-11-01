@@ -6,19 +6,27 @@
 
 
 .header-nav {
-  display: flex;
+   display: flex;
   align-items: center;
   position: relative;
-  
+
+  @media screen and (max-width:767px) {
+    width: 100%;
+    justify-content: center;
+    }
+ 
 
 }
 
 .heder-container {
-  display: flex;
+  //  display: flex;
   align-items: center;
-  // @media screen and (min-width:768px) {
-  //   justify-content: space-between;
-  // }
+
+  
+  @media screen and (min-width:768px) {
+    display: flex;
+   justify-content: center;
+   }
 
 }
 
@@ -39,7 +47,7 @@
   @media screen and (min-width:768px) {
     display: flex;
     
-    min-width: 281px;
+   min-width: 281px;
     gap: 50px;
    
 
@@ -84,8 +92,8 @@
  
   @media screen and (max-width:1199px) {
     display: block;
-    margin-left: 0;
-    margin-right: 97px;
+    margin-left: 90px;
+    // margin-right: 97px;
     padding-top: 21px;
     padding-bottom: 21px;
   }
@@ -100,6 +108,7 @@
     display: flex;
     margin-left: auto;
     gap: 50px;
+    justify-content: space-between;
     
   }
 }

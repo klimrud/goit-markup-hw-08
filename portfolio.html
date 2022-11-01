@@ -41,6 +41,80 @@
               <a class="header-nav__link link" href="#">Контакти</a>
             </li>
           </ul>
+  <!--mobile menu  -->
+          <button class="menu-button is-open"
+           type="button"
+            data-menu-button
+            aria-controls="menu-container"
+          aria-expanded="false"
+           >
+            <svg 
+            width="40"
+            height="40"
+            aria-label="Перемикач мобільного меню"
+            >
+            
+            <use class="icon-close" href="./images/symbol-defs.svg#icon-close-black"></use>
+            <use class="icon-menu" href="./images/symbol-defs.svg#icon-menu_24px"></use>
+           </svg>
+         </button>
+
+          <div class="menu menu-container is-open" id="menu-container" data-menu>
+            <div  class="menu-nav">
+              <ul class="menu-nav__list list">
+                <li class="menu-nav__item">
+                  <a class="menu-nav__link link" href="./index.html">
+                    Студія
+                  </a>
+                </li>
+                <li class="menu-nav__item">
+                  <a class="menu-nav__link link" href="./portfolio.html">
+                    Портфоліо
+                  </a>
+                </li>
+                <li class="menu-nav__item">
+                  <a class="menu-nav__link link" href="#">Контакти</a>
+                </li>
+              </ul>
+            </div>
+            <div class="menu-cont">
+              <ul class="list">
+                 <li class="menu-cont__link link">
+                  <a class="menu-cont__tel link" href="tel:+380961111111">
+                    +38 096 111 11 11
+                  </a>
+              </li>
+              <li class="menu-cont__link link">
+                <a class="menu-cont__mail link" href="mailto:info@devstudio.com">
+                  info@devstudio.com
+                </a>
+              </li>
+              </ul>
+            </div>
+             <div class="menu-soc">
+              <ul class="menu-soc__list list">
+                <li class="menu-soc__item">
+                  <a class="menu-soc__link link" href="#">
+                    Instagram
+                  </a>
+                </li>
+                <li class="menu-soc__item">
+                  <a class="menu-soc__link link" href="#">
+                    Twitter
+                  </a>
+                </li>
+                <li class="menu-soc__item">
+                  <a class="menu-soc__link link" href="#">Facebook</a>
+                </li>
+                <li class="menu-soc__item">
+                  <a class="menu-soc__link link" href="#">
+                    LinkedIn
+                  </a>
+              </ul>
+            </div>
+          </div>
+
+
         </nav>
         <ul class="list list-header">
           <li class="list-header__link-icon">
@@ -75,12 +149,13 @@
             <li><button type="button" class="filter-btn">Дизайн</button></li>
             <li><button type="button" class="filter-btn">Маркетинг</button></li>
           </ul>
+
+       <!--gallery-->
           <ul class="gallery list">
-            <!--gallery-->
             <li class="gallery-item">
               <a class="gallery-link link" href="#">
                 <div class="galler-parent">
-                  <img src="./imag/технокряк.jpg" alt="технокряк" width="370" />
+                  <img src="./imag/desktop/технокряк-370w.jpg" alt="технокряк" width="370" />
 
                   <p class="gallery-desc">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -97,7 +172,7 @@
             <li class="gallery-item">
               <a class="gallery-link link" href="#">
                 <div class="galler-parent">
-                  <img src="./imag/poster.jpg" alt="poster" width="370" />
+                  <img src="./imag/desktop/poster-370w.jpg" alt="poster" width="370" />
                   <p class="gallery-desc">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -116,7 +191,7 @@
               <a class="gallery-link link" href="#">
                 <div class="galler-parent">
                   <img
-                    src="./imag/restaurant.jpg"
+                    src="./imag/desktop/restaurant-370w.jpg"
                     alt="restaurant"
                     width="370"
                   />
@@ -135,7 +210,7 @@
             <li class="gallery-item">
               <a class="gallery-link link" href="#">
                 <div class="galler-parent">
-                  <img src="./imag/prime.jpg" alt="prime" width="370" />
+                  <img src="./imag/desktop/prime-370w.jpg" alt="prime" width="370" />
                   <p class="gallery-desc">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -151,7 +226,7 @@
             <li class="gallery-item">
               <a class="gallery-link link" href="#">
                 <div class="galler-parent">
-                  <img src="./imag/boxes.jpg" alt="boxes" width="370" />
+                  <img src="./imag/desktop/boxes-450w.jpg" alt="boxes" width="370" />
                   <p class="gallery-desc">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -168,7 +243,7 @@
               <a class="gallery-link link" href="#">
                 <div class="galler-parent">
                   <img
-                    src="./imag/insp-borders.jpg"
+                    src="./imag/desktop/insp-borders-370w.jpg"
                     alt="Inspiration has no Borders"
                     width="370"
                   />
@@ -188,7 +263,7 @@
               <a class="gallery-link link" href="#">
                 <div class="galler-parent">
                   <img
-                    src="./imag/limited-edition.jpg"
+                    src="./imag/desktop/limited-edition-370w.jpg"
                     alt="Видання Limited Edition"
                     width="370"
                   />
@@ -207,7 +282,7 @@
             <li class="gallery-item">
               <a class="gallery-link link" href="#">
                 <div class="galler-parent">
-                  <img src="./imag/lab.jpg" alt="Проєкт LAB" width="370" />
+                  <img src="./imag/desktop/lab-370w.jpg" alt="Проєкт LAB" width="370" />
                   <p class="gallery-desc">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -224,7 +299,7 @@
               <a class="gallery-link link" href="#">
                 <div class="galler-parent">
                   <img
-                    src="./imag/growing-business.jpg"
+                    src="./imag/desktop/growing-business-370w.jpg"
                     alt="Growing Business"
                   />
                   <p class="gallery-desc">
@@ -337,5 +412,9 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/mobile-menu.js"></script>
+    <script src="./js/menu.js"></script>
+
   </body>
 </html>

@@ -11,10 +11,15 @@
   position: relative;
 
   @media screen and (max-width:767px) {
-    width: 100%;
-    justify-content: center;
-    }
- 
+  width: 100%;
+  justify-content: space-between;
+ }
+
+ @media screen and (min-width:768px) { 
+  
+  justify-content: space-between;
+  }
+  
 
 }
 
@@ -79,7 +84,7 @@
     fill: $accent-color;
    }
 
-   .header-nav__list &.current {
+    &.current {
     color: $accent-color;
   }   
 }
@@ -92,7 +97,7 @@
  
   @media screen and (max-width:1199px) {
     display: block;
-    margin-left: 90px;
+    margin-left: 96px;
     // margin-right: 97px;
     padding-top: 21px;
     padding-bottom: 21px;

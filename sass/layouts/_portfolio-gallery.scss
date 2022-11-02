@@ -1,19 +1,15 @@
 .gallery {
-  // display: flex;
   display: block;
+  // display: flex;
 //  flex-wrap: wrap;
   gap: 30px;
   
-  @media  (max-width: 479px) {
-    display: flex;
-   flex-wrap: wrap;
-    
-   }
-
-
+ 
  @media screen and (min-width: 480px) {
-   display: flex;
-   flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+ justify-content: space-evenly;
+  
     
    }
 
@@ -28,8 +24,23 @@
 }
 
 .gallery-item {
-  width: calc((100% - 60px) / 3);
+  // width: calc((100% - 60px) / 3);
   height: 100%;
+ 
+  @media  (max-width: 767px) {
+    width: 100%;
+  }
+
+
+  @media screen and (min-width: 768px) {
+  width: calc((100% - 60px) / 2);
+   
+  }
+  
+  @media screen and (min-width: 1200px) {
+    width: calc((100% - 60px) / 3);
+     
+    }
 }
 
 .gallery-link {

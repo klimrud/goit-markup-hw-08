@@ -24,14 +24,14 @@
   @media  (max-width: 479px) {
      display: flex;
     flex-wrap: wrap;
-     
+    justify-content: space-evenly; 
     }
 
 
   @media screen and (min-width: 480px) {
     display: flex;
     flex-wrap: wrap;
-     
+    justify-content: space-evenly; 
     }
 
  @media screen and (min-width: 768px) {

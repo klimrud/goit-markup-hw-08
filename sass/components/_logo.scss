@@ -6,16 +6,16 @@
   // letter-spacing: 0.03em;
   // color: $accent-color;
 
- @media screen and (max-width:767px) {
+ @media screen and (max-width:1199px) {
   font-family: 'Raleway', sans-serif;
    font-weight: 700;
   font-size: 24px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: $accent-color;
  }
 
- @media screen and (min-width:768px) {
+ @media screen and (min-width:1200px) {
  font-family: 'Raleway', sans-serif;
    font-weight: 700;
    font-size: 26px;
@@ -30,18 +30,18 @@
 
 
 .header__logo {
-  margin-right: 93px;
+  // margin-right: 93px;
   padding: 24px 0;
 
-  @media screen and (min-width:480px) {
-  width: 480px;
-  margin-right: 276px;
-  }
+ @media screen and (min-width:768px){
+  margin-right: 87px;
+  
+ }
+ @media screen and (min-width:1200px){
+  margin-right: 93px;
+  
+ }
 
- @media screen and (max-width:479px) {
-  width: 480px;
-  margin-right: calc(100%-(134px-40px));
-  }   
  
 }
 
@@ -54,5 +54,5 @@
 }
 
 .footer__logo {
-  min-width: 145px;
+  min-width: 134px;
 }

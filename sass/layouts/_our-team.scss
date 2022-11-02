@@ -32,25 +32,30 @@
 
   @media screen and (min-width: 768px) {
     display: flex;
-    // flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
+    width: calc((100% - 30px) / 2);
     
 
     }
 
     @media screen and (max-width: 1200px) {
-      flex-wrap: wrap;
-      
+      display: flex;
+      flex-wrap: nowrap;
+       gap: 30px;
+        width: calc((100% - 30px) / 2);
+       margin: 0 auto;
+      justify-content: center;
     }
 
  @media screen and (min-width: 1200px) {
   
    display: flex;
-  //  flex-wrap: nowrap;
-  //  gap: 30px;
-  //  width: calc((100% - 90px) / 4);
-  
+   flex-wrap: nowrap;
+    gap: 30px;
+     width: calc((100% - 90px) / 4);
+   margin: 0 auto;
   }
 
 

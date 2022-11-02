@@ -464,6 +464,7 @@ body {
 }
 
 .header {
+  position: relative;
   border-bottom: 1px solid #ececec;
 }
 
@@ -684,6 +685,7 @@ body {
     top: 100%;
     left: 0;
     width: 100%;
+    z-index: 999;
   }
   .menu-container.is-open {
     display: block;
@@ -796,6 +798,7 @@ body {
     gap: 8px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    margin-bottom: 40px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -809,6 +812,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-bottom: 40px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -863,6 +867,7 @@ body {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -873,6 +878,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-bottom: 30px;
   }
 }
 
@@ -961,6 +967,9 @@ body {
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+  max-width: 1600px;
+  background-position: center;
+  margin: 0 auto;
 }
 
 .footer-aside {

@@ -41,7 +41,7 @@
           </ul>
 
           <!--mobile menu  -->
-          <button class="menu-button is-open"
+          <button class="menu-button "
            type="button"
             data-menu-button
             aria-controls="menu-container"
@@ -58,7 +58,7 @@
            </svg>
          </button>
 
-          <div class="menu menu-container is-open" id="menu-container" data-menu>
+          <div class="menu menu-container " id="menu-container" data-menu>
             <div  class="menu-nav">
               <ul class="menu-nav__list list">
                 <li class="menu-nav__item">
@@ -252,12 +252,32 @@
           <h2 class="title">Наша команда</h2>
           <ul class="list command-item">
             <li class="command-list">
+              <picture>
+                <source srcset="
+                ./images/desktop/img1b-270w.webp 270w ,
+                ./images/tablet/img1b-354w.webp 354w ,
+                ./images/mobile/img1b-450w.webp 450w" type="image/webp"/>
               <img
                 class="command-img"
+                loaling="lazy"
+              srcset="
+              ./images/desktop/img1s-270w.jpg,
+              ./images/desktop/img1b-270w.jpg,
+              
+              ./images/tablet/img1s-354w.jpg,
+              ./images/tablet/img1b-354w.jpg,
+              
+              ./images/mobile/img1s-450w.jpg,
+              ./images/mobile/img1b-450w.jpg,
+             "
+
                 src="./images/desktop/img1b-270w.jpg"
                 alt="Ігор Дем'яненко"
-                width="270"
-              />
+                sizes="(min-width: 1200px) 100vw, 
+                (min-width: 768px) 50vw,
+                (min-width: 480px) 25vw, 100vw"
+                
+              /></picture>
               <div class="command-item-content">
                 <h3 class="command-title">Ігор Дем'яненко</h3>
                 <p class="command-desc" lang="en">Product Designer</p>
@@ -300,12 +320,39 @@
               </div>
             </li>
             <li class="command-list">
+
+              <picture>
+                <source srcset="
+                ./images/desktop/img2b-270w.webp 270w ,
+                ./images/tablet/img2b-354w.webp 354w ,
+                ./images/mobile/img2b-450w.webp 450w" type="image/webp"/>
               <img
+                class="command-img"
+                loaling="lazy"
+              srcset="
+              ./images/desktop/img2s-270w.jpg,
+              ./images/desktop/img2b-270w.jpg,
+              
+              ./images/tablet/img2s-354w.jpg,
+              ./images/tablet/img2b-354w.jpg,
+              
+              ./images/mobile/img2s-450w.jpg,
+              ./images/mobile/img2b-450w.jpg,
+             "
+
+             src="./images/desktop/img2b-270w.jpg"
+             alt="Ольга Рєпіна"
+                sizes="(min-width: 1200px) 100vw, 
+                (min-width: 768px) 50vw,
+                (min-width: 480px) 25vw, 100vw"
+                
+              /></picture>
+              <!-- <img
                 class="command-img"
                 src="./images/desktop/img2b-270w.jpg"
                 alt="Ольга Рєпіна"
                 width="270"
-              />
+              /> -->
               <div class="command-item-content">
                 <h3 class="command-title">Ольга Рєпіна</h3>
                 <p class="command-desc" lang="en">Frontend Developer</p>
@@ -349,12 +396,39 @@
             </li>
 
             <li class="command-list">
+              <picture>
+                <source srcset="
+                ./images/desktop/img3b-270w.webp 270w ,
+                ./images/tablet/img3b-354w.webp 354w ,
+                ./images/mobile/img3b-450w.webp 450w" type="image/webp"/>
               <img
+                class="command-img"
+                loaling="lazy"
+              srcset="
+              ./images/desktop/img3s-270w.jpg,
+              ./images/desktop/img3b-270w.jpg,
+              
+              ./images/tablet/img3s-354w.jpg,
+              ./images/tablet/img3b-354w.jpg,
+              
+              ./images/mobile/img3s-450w.jpg,
+              ./images/mobile/img3b-450w.jpg,
+             "
+
+             src="./images/desktop/img3b-270w.jpg"
+             alt="Микола Тарасов"
+                sizes="(min-width: 1200px) 100vw, 
+                (min-width: 768px) 50vw,
+                (min-width: 480px) 25vw, 100vw"
+                
+              /></picture>
+
+              <!-- <img
                 class="command-img"
                 src="./images/desktop/img3b-270w.jpg"
                 alt="Микола Тарасов"
                 width="270"
-              />
+              /> -->
               <div class="command-item-content">
                 <h3 class="command-title">Микола Тарасов</h3>
                 <p class="command-desc" lang="en">Marketing</p>
@@ -398,12 +472,40 @@
             </li>
 
             <li class="command-list">
+
+              <picture>
+                <source srcset="
+                ./images/desktop/img4b-270w.webp 270w ,
+                ./images/tablet/img4b-354w.webp 354w ,
+                ./images/mobile/img4b-450w.webp 450w" type="image/webp"/>
               <img
+                class="command-img"
+                loaling="lazy"
+              srcset="
+              ./images/desktop/img4s-270w.jpg,
+              ./images/desktop/img4b-270w.jpg,
+              
+              ./images/tablet/img4s-354w.jpg,
+              ./images/tablet/img4b-354w.jpg,
+              
+              ./images/mobile/img4s-450w.jpg,
+              ./images/mobile/img4b-450w.jpg,
+             "
+
+             src="./images/desktop/img4b-270w.jpg"
+                alt="Михайло Єрмаков"
+                sizes="(min-width: 1200px) 100vw, 
+                (min-width: 768px) 50vw,
+                (min-width: 480px) 25vw, 100vw"
+                
+              /></picture>
+
+              <!-- <img
                 class="command-img"
                 src="./images/desktop/img4b-270w.jpg"
                 alt="Михайло Єрмаков"
                 width="270"
-              />
+              /> -->
               <div class="command-item-content">
                 <h3 class="command-title">Михайло Єрмаков</h3>
                 <p class="command-desc" lang="en">UI Designer</p>

@@ -1,23 +1,22 @@
 
 .section-container {
   display: block;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  
+
+  @media screen and (min-width: 1200px) {
   padding-top: 95px;
   padding-bottom: 94px;
-
+  }
  
 
 }
 
 .section {
   //  display: flex;
-  
    flex-wrap: wrap;
    gap: 30px;
-
-  //  @media screen and (max-width: 480px) {
-  //   margin: 0;
-    
-  //   }
 
   @media screen and (min-width: 768px) {
     display: flex;
@@ -35,27 +34,32 @@
 }
 
 .section-list {
-  width: 270px;
+  // width: 270px;
   margin: 0 auto;
+  @media screen and (min-width: 767px) {
+    width: 270px;
+  }
+
 }
+
+
 .section-item {
   display: block;
   content: '';
   height: 120px;
-
+  
   background-color: #f5f4fa;
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
 
-  // @media screen and (max-width: 767px) {
-  //   width: 450px;
-  
-    
-  //  }
-
+  @media screen and (max-width: 480px) {
+    width: 100%;
+  }  
 }
+
+
 
 .section-icon {
   width: 70px;

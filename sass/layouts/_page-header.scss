@@ -7,33 +7,40 @@
 
 
 .header-nav {
-   display: flex;
+     display: flex;
   align-items: center;
   position: relative;
 
   @media screen and (max-width:767px) {
+    // display: flex;
   width: 100%;
   justify-content: space-between;
  }
 
  @media screen and (min-width:768px) { 
-  
-  justify-content: space-between;
+  //  display: flex;
+  // justify-content: space-between;
+ 
   }
   
 
 }
 
 .heder-container {
-  //  display: flex;
+     display: flex;
   align-items: center;
 
   
   @media screen and (min-width:768px) {
-    display: flex;
+
+    flex-wrap: nowrap;
    justify-content: center;
    }
 
+   @media screen and (min-width:1200px) {
+    
+     justify-content: center;
+     }
 }
 
 .header-nav__list {
@@ -47,7 +54,7 @@
 
   @media screen and (max-width:767px) {
     display: none;
-    justify-content: space-between;
+     justify-content: space-between;
   }
 
   @media screen and (min-width:768px) {

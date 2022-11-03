@@ -9,69 +9,42 @@
 }
 .command {
   background-color: $command-fon;
-  padding-bottom: 94px;
-  padding-top: 94px;
-}
-
-.command-item {
-  // display: flex;
-  //   gap: 30px;
-  //   width: calc((100% - 90px) / 4);
-
- @media screen and (max-width: 479px) {
-   display: block;
-   margin-bottom: 30px;
- }  
-
- @media screen and (min-width: 480px) {
- 
-  display: block;
-  
- }
-
-
-  @media screen and (min-width: 768px) {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
-    width: calc((100% - 30px) / 2);
-    
-
-    }
-
-    @media screen and (max-width: 1200px) {
-      display: flex;
-      flex-wrap: nowrap;
-       gap: 30px;
-        width: calc((100% - 30px) / 2);
-       margin: 0 auto;
-      justify-content: center;
-    }
-
- @media screen and (min-width: 1200px) {
-  
-   display: flex;
-   flex-wrap: nowrap;
-    gap: 30px;
-     width: calc((100% - 90px) / 4);
-   margin: 0 auto;
+  // display: block;
+   padding-bottom: 60px;
+   padding-top: 60px;
+  @media screen and (min-width: 480px) {
+    padding-bottom: 60px;
+      padding-top: 60px;
   }
 
-
+  @media screen and (min-width: 1200px) {
+      padding-bottom: 94px;
+      padding-top: 94px;
+    }
 
 }
-
+// у него list
+.command-item {
+  display: flex;
+  flex-wrap: wrap;
+     gap: 30px;
+ 
+}
+// у него item
 .command-list {
   background-color: $basic-fon;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  width: 100%;
 
-  @media screen and (max-width: 767px) {
-    display: block;
-    margin-bottom: 30px;
-  }  
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 30px) / 2);
+  } 
+  @media screen and (min-width: 1200px) {
+   
+     width: calc((100% - 90px) / 4); 
+  }
 }
 
 .command-img {

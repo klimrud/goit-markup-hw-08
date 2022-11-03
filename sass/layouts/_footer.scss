@@ -5,12 +5,13 @@
   max-width: 1600px;
   background-position: center;
   margin: 0 auto;
+  // width: 100%;
 }
 
 .footer-aside {
   // display: flex;
   align-items: baseline;
-
+ 
   
  @media screen and (max-width: 479px) {
   display: block;
@@ -22,6 +23,12 @@
   display: block;
    text-align: center;
   
+ }
+
+ @media screen and (min-width: 768px) {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
  }
 
  @media screen and (min-width: 768px) {

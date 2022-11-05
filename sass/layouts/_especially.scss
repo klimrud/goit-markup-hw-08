@@ -6,7 +6,7 @@
   
 
   @media screen and (min-width: 1200px) {
-  padding-top: 95px;
+  padding-top: 94px;
   padding-bottom: 94px;
   }
  
@@ -35,9 +35,20 @@
 
 .section-list {
   // width: 270px;
-  margin: 0 auto;
-  @media screen and (min-width: 767px) {
-    width: 270px;
+  // margin: 0 auto;
+ width: 100%;
+  
+  //  @media screen and (max-width: 480px) {
+    &:not(:last-child) {
+    margin-bottom: 30px;
+    // }
+  }
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 30px) / 2);
+  } 
+  @media screen and (min-width: 1200px) {
+   
+     width: calc((100% - 90px) / 4); 
   }
 
 }
@@ -54,9 +65,10 @@
   justify-content: center;
   align-items: center;
 
-  @media screen and (max-width: 480px) {
-    width: 100%;
-  }  
+  width: 100%;
+  // @media screen and (max-width: 480px) {
+  //   width: 100%;
+  // }  
 }
 
 

@@ -2,8 +2,16 @@
 .clients {
   display: block;
   // background: #ffffff;
-  padding-bottom: 94px;
-  padding-top: 94px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    }
+   
+
 }
 
 .clients-title {
@@ -17,37 +25,36 @@
 }
 
 .clients-container {
-  //   display: flex;
-   gap: 30px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
   //  width: calc((100% - 150px) / 6);
 
-  @media  (max-width: 479px) {
-     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly; 
-    }
-
-
-  @media screen and (min-width: 480px) {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly; 
-    }
-
- @media screen and (min-width: 768px) {
-   
-   flex-wrap: wrap;
-   justify-content: center;
- 
-  } 
-   
+  
 }
 
-/* .clients-list {
-} */
+.clients-list {
+
+  width: 100%;
+  //  width: calc((100% - 30px) / 2);
+
+  @media screen and (min-width: 480px) {
+     width: calc((100% - 30px) / 2);
+  } 
+    @media screen and (min-width: 768px) {
+   
+     width: calc((100% - 90px) / 3); 
+ }
+    @media screen and (min-width: 1200px) {
+//    //display: flex;
+//   //   gap: 30px;
+     width: calc((100% - 150px) / 6);
+
+   }
+} 
 
 .clients-item {
-  width: 170px;
+  // width: 170px;
   height: 92px;
   display: flex;
   justify-content: center;

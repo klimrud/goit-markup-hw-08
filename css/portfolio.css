@@ -476,7 +476,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  position: relative;
 }
 @media screen and (max-width: 767px) {
   .header-nav {
@@ -675,10 +674,15 @@ body {
   display: none;
 }
 
+.menu {
+  position: fixed;
+}
+
 .menu-container {
   padding: 40px;
   font-size: 20px;
   background: white;
+  z-index: 9;
 }
 @media screen and (max-width: 767px) {
   .menu-container {
@@ -686,8 +690,8 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    width: 100%;
-    z-index: 999;
+    width: 100vw;
+    height: 100vh;
   }
   .menu-container.is-open {
     display: block;
@@ -1297,7 +1301,7 @@ body {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -4px;
+  bottom: -3px;
   width: 100%;
   background: #2196f3;
   border-radius: 2px;

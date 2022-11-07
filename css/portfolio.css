@@ -691,7 +691,6 @@ body {
     top: 100%;
     left: 0;
     width: 100vw;
-    height: 100vh;
   }
   .menu-container.is-open {
     display: block;

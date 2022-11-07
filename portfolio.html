@@ -154,8 +154,45 @@
             <li class="gallery-item">
               <a class="gallery-link link" href="#">
                 <div class="galler-parent">
-                  <img src="./imag/desktop/технокряк-370w.jpg" alt="технокряк" width="370" />
-
+                  <picture>
+               
+                
+                    <source srcset="
+                    ./imag/desktop/технокряк-370w.jpg 1x,
+                    ./imag/desktop/технокряк@2x-370w.jpg 2x
+                    "
+                    media="(min-width: 1200px)"/>
+    
+                    <source srcset="
+                    ./imag/tablet/технокряк-354w.jpg 1x,
+                    ./imag/tablet/технокряк@2x-354w.jpg 2x
+                    "
+                    media="(min-width: 768px)"/>
+    
+                    <source srcset="
+                    ./imag/mobile/технокряк-450w.jpg 1x,
+                    ./imag/mobile/технокряк@2x-450w.jpg 2x
+                    "
+                    media="(max-width: 767px)"/>    
+                  <img 
+                  loaling="lazy"
+                  srcset="
+                  ./imag/desktop/технокряк-370w.jpg 1x,
+                  ./imag/desktop/технокряк@2x-370w.jpg 2x,
+                  
+                  ./imag/tablet/технокряк-354w.jpg 1x,
+                  ./imag/tablet/технокряк@2x-354w.jpg 2x,
+                  
+                  ./imag/mobile/технокряк-450w.jpg 1x,
+                  ./imag/mobile/технокряк@2x-450w.jpg 2x
+                 "
+                  src="./imag/desktop/технокряк-370w.jpg" 
+                  alt="технокряк" width="370" 
+                   sizes="(min-width: 1200px) 100vw, 
+                  (min-width: 768px) 50vw,
+                  (min-width: 480px) 25vw, 100vw"
+                  
+                /></picture>
                   <p class="gallery-desc">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -320,7 +357,8 @@
 
     <!--підвал-->
     <footer class="footer">
-      <div class="container footer-aside">
+      <div class="footer-container__blok container">
+       <div class=" footer-aside">
         <div class="footer-container list">
           <a class="footer__logo logo link" href="./index.html" lang="en">
             Web
@@ -358,28 +396,28 @@
 
           <ul class="social-soc-list list">
             <li class="social-soc-item">
-              <a class="social-soc-link" href="">
+              <a class="social-soc-link" href="#">
                 <svg class="social-soc-icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="social-soc-item">
-              <a class="social-soc-link" href="">
+              <a class="social-soc-link" href="#">
                 <svg class="social-soc-icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="social-soc-item">
-              <a class="social-soc-link" href="">
+              <a class="social-soc-link" href="#">
                 <svg class="social-soc-icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="social-soc-item">
-              <a class="social-soc-link" href="">
+              <a class="social-soc-link" href="#">
                 <svg class="social-soc-icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                 </svg>
@@ -387,6 +425,8 @@
             </li>
           </ul>
         </div>
+      </div>
+
         <div class="subscription-block">
           <p class="footer-subscription-text">Підпишіться на розсилку</p>
           <form class="footer-subscription">

@@ -288,13 +288,13 @@ body {
 }
 @media screen and (max-width: 479px) {
   .container {
-    width: 448px;
+    width: 100%;
     margin: 0 auto;
   }
 }
 @media screen and (min-width: 480px) {
   .container {
-    width: 480px;
+    width: 100%;
     margin: 0 auto;
   }
 }
@@ -679,6 +679,11 @@ body {
 }
 
 .menu-button {
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -745,7 +750,7 @@ body {
 
 .menu-nav__link {
   font-weight: 500;
-  font-size: 40px;
+  font-size: 9vw;
   line-height: 1.18;
   letter-spacing: 0.02em;
   color: #212121;
@@ -773,7 +778,7 @@ body {
 .menu-cont__mail,
 .menu-cont__tel {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 5vw;
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: #757575;
@@ -786,7 +791,7 @@ body {
   color: #2196f3;
   fill: #2196f3;
   font-weight: 500;
-  font-size: 34px;
+  font-size: 8vw;
   line-height: 1.18;
 }
 
@@ -794,7 +799,7 @@ body {
   color: #2196f3;
   fill: #2196f3;
   font-weight: 500;
-  font-size: 34px;
+  font-size: 8vw;
   line-height: 1.18;
 }
 
@@ -814,7 +819,7 @@ body {
 
 .menu-soc__link {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 4vw;
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: #2196f3;
@@ -855,8 +860,6 @@ body {
 }
 @media screen and (min-width: 769px) {
   .hero {
-    padding-top: 200px;
-    padding-bottom: 200px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/header-d.jpg);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-d.jpg);
   }
@@ -865,6 +868,12 @@ body {
   .hero {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/header-d2x.jpg);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/header-d2x.jpg);
+  }
+}
+@media screen and (min-width: 769px) and (min-width: 1200px) {
+  .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
 }
 .hero-title {

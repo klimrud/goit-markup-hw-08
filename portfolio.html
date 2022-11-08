@@ -53,8 +53,8 @@
             aria-label="Перемикач мобільного меню"
             >
             
-            <use class="icon-close" href="./images/symbol-defs.svg#icon-close-black"></use>
-            <use class="icon-menu" href="./images/symbol-defs.svg#icon-menu_24px"></use>
+            <use class="icon-close" href="./images/symbol-defs.svg#icon-close_40px"></use>
+            <use class="icon-menu" href="./images/symbol-defs.svg#icon-menu_40px"></use>
            </svg>
          </button>
 
@@ -156,12 +156,25 @@
                 <div class="galler-parent">
                   <picture>
                
-                
+                    <source srcset="
+                    ./imag/desktop/технокряк@1-370w.webp 1x,
+                    ./imag/desktop/технокряк@2x-370w.webp 2x
+                    "
+                    media="(min-width: 1200px)" 
+                    type="image/webp"/>
+
                     <source srcset="
                     ./imag/desktop/технокряк-370w.jpg 1x,
                     ./imag/desktop/технокряк@2x-370w.jpg 2x
                     "
                     media="(min-width: 1200px)"/>
+
+                    <source srcset="
+                    ./imag/tablet/технокряк@1-354w.webp 1x,
+                    ./imag/tablet/технокряк@2x-354w.webp 2x
+                    "
+                    media="(min-width: 768px)" 
+                    type="image/webp"/>
     
                     <source srcset="
                     ./imag/tablet/технокряк-354w.jpg 1x,
@@ -170,6 +183,13 @@
                     media="(min-width: 768px)"/>
     
                     <source srcset="
+                    ./imag/mobile/технокряк@1-450w.webp 1x,
+                    ./imag/mobile/технокряк@2x-450w.webp 2x
+                    "
+                    media="(max-width: 767px)" 
+                    type="image/webp"/>
+
+                    <source srcset="
                     ./imag/mobile/технокряк-450w.jpg 1x,
                     ./imag/mobile/технокряк@2x-450w.jpg 2x
                     "
@@ -177,11 +197,20 @@
                   <img 
                   loaling="lazy"
                   srcset="
+                  ./imag/desktop/технокряк@1-370w.webp 1x,
+                  ./imag/desktop/технокряк@2x-370w.webp 2x,
+
                   ./imag/desktop/технокряк-370w.jpg 1x,
                   ./imag/desktop/технокряк@2x-370w.jpg 2x,
+
+                  ./imag/tablet/технокряк@1-354w.webp 1x,
+                  ./imag/tablet/технокряк@2x-354w.webp 2x,
                   
                   ./imag/tablet/технокряк-354w.jpg 1x,
                   ./imag/tablet/технокряк@2x-354w.jpg 2x,
+
+                  ./imag/mobile/технокряк@1-450w.webp 1x,
+                  ./imag/mobile/технокряк@2x-450w.webp 2x,
                   
                   ./imag/mobile/технокряк-450w.jpg 1x,
                   ./imag/mobile/технокряк@2x-450w.jpg 2x
@@ -208,7 +237,75 @@
             <li class="gallery-item">
               <a class="gallery-link link" href="#">
                 <div class="galler-parent">
-                  <img src="./imag/desktop/poster-370w.jpg" alt="poster" width="370" />
+
+                  <picture>
+               
+                    <source srcset="
+                    ./imag/desktop/poster@1-370w.webp 1x,
+                    ./imag/desktop/poster@2x-370w.webp 2x
+                    "
+                    media="(min-width: 1200px)" 
+                    type="image/webp"/>
+
+                    <source srcset="
+                    ./imag/desktop/poster-370w.jpg 1x,
+                    ./imag/desktop/poster@2x-370w.jpg 2x
+                    "
+                    media="(min-width: 1200px)"/>
+
+                    <source srcset="
+                    ./imag/tablet/poster@1-354w.webp 1x,
+                    ./imag/tablet/poster@2x-354w.webp 2x
+                    "
+                    media="(min-width: 768px)" 
+                    type="image/webp"/>
+    
+                    <source srcset="
+                    ./imag/tablet/poster-354w.jpg 1x,
+                    ./imag/tablet/poster@2x-354w.jpg 2x
+                    "
+                    media="(min-width: 768px)"/>
+    
+                    <source srcset="
+                    ./imag/mobile/poster@1-450w.webp 1x,
+                    ./imag/mobile/poster@2x-450w.webp 2x
+                    "
+                    media="(max-width: 767px)" 
+                    type="image/webp"/>
+
+                    <source srcset="
+                    ./imag/mobile/poster-450w.jpg 1x,
+                    ./imag/mobile/poster@2x-450w.jpg 2x
+                    "
+                    media="(max-width: 767px)"/>  
+                    <img 
+                    loaling="lazy"
+                    srcset="
+                    ./imag/desktop/poster@1-370w.webp 1x,
+                    ./imag/desktop/poster@2x-370w.webp 2x,
+  
+                    ./imag/desktop/poster-370w.jpg 1x,
+                    ./imag/desktop/poster@2x-370w.jpg 2x,
+  
+                    ./imag/tablet/poster@1-354w.webp 1x,
+                    ./imag/tablet/poster@2x-354w.webp 2x,
+                    
+                    ./imag/tablet/poster-354w.jpg 1x,
+                    ./imag/tablet/poster@2x-354w.jpg 2x,
+  
+                    ./imag/mobile/poster@1-450w.webp 1x,
+                    ./imag/mobile/poster@2x-450w.webp 2x,
+                    
+                    ./imag/mobile/poster-450w.jpg 1x,
+                    ./imag/mobile/poster@2x-450w.jpg 2x
+                   "
+                   src="./imag/desktop/poster-370w.jpg" alt="poster" width="370" 
+                     sizes="(min-width: 1200px) 100vw, 
+                    (min-width: 768px) 50vw,
+                    (min-width: 480px) 25vw, 100vw"
+                    
+                  /></picture>
+                  
                   <p class="gallery-desc">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -226,11 +323,76 @@
             <li class="gallery-item">
               <a class="gallery-link link" href="#">
                 <div class="galler-parent">
-                  <img
-                    src="./imag/desktop/restaurant-370w.jpg"
-                    alt="restaurant"
-                    width="370"
-                  />
+                  <picture>
+               
+                    <source srcset="
+                    ./imag/desktop/restaurant@1-370w.webp 1x,
+                    ./imag/desktop/restaurant@2x-370w.webp 2x
+                    "
+                    media="(min-width: 1200px)" 
+                    type="image/webp"/>
+
+                    <source srcset="
+                    ./imag/desktop/restaurant-370w.jpg 1x,
+                    ./imag/desktop/restaurant@2x-370w.jpg 2x
+                    "
+                    media="(min-width: 1200px)"/>
+
+                    <source srcset="
+                    ./imag/tablet/restaurant@1-354w.webp 1x,
+                    ./imag/tablet/restaurant@2x-354w.webp 2x
+                    "
+                    media="(min-width: 768px)" 
+                    type="image/webp"/>
+    
+                    <source srcset="
+                    ./imag/tablet/restaurant-354w.jpg 1x,
+                    ./imag/tablet/restaurant@2x-354w.jpg 2x
+                    "
+                    media="(min-width: 768px)"/>
+    
+                    <source srcset="
+                    ./imag/mobile/restaurant@1-450w.webp 1x,
+                    ./imag/mobile/restaurant@2x-450w.webp 2x
+                    "
+                    media="(max-width: 767px)" 
+                    type="image/webp"/>
+
+                    <source srcset="
+                    ./imag/mobile/restaurant-450w.jpg 1x,
+                    ./imag/mobile/restaurant@2x-450w.jpg 2x
+                    "
+                    media="(max-width: 767px)"/>  
+                    <img 
+                    loaling="lazy"
+                    srcset="
+                    ./imag/desktop/restaurant@1-370w.webp 1x,
+                    ./imag/desktop/restaurant@2x-370w.webp 2x,
+  
+                    ./imag/desktop/restaurant-370w.jpg 1x,
+                    ./imag/desktop/restaurant@2x-370w.jpg 2x,
+  
+                    ./imag/tablet/restaurant@1-354w.webp 1x,
+                    ./imag/tablet/restaurant@2x-354w.webp 2x,
+                    
+                    ./imag/tablet/restaurant-354w.jpg 1x,
+                    ./imag/tablet/restaurant@2x-354w.jpg 2x,
+  
+                    ./imag/mobile/restaurant@1-450w.webp 1x,
+                    ./imag/mobile/restaurant@2x-450w.webp 2x,
+                    
+                    ./imag/mobile/restaurant-450w.jpg 1x,
+                    ./imag/mobile/restaurant@2x-450w.jpg 2x
+                   "
+                   src="./imag/desktop/restaurant-370w.jpg"
+                   alt="restaurant" width="370" 
+                     sizes="(min-width: 1200px) 100vw, 
+                    (min-width: 768px) 50vw,
+                    (min-width: 480px) 25vw, 100vw"
+                    
+                  /></picture>
+
+                 
                   <p class="gallery-desc">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -246,7 +408,74 @@
             <li class="gallery-item">
               <a class="gallery-link link" href="#">
                 <div class="galler-parent">
-                  <img src="./imag/desktop/prime-370w.jpg" alt="prime" width="370" />
+                  <picture>
+               
+                    <source srcset="
+                    ./imag/desktop/prime@1-370w.webp 1x,
+                    ./imag/desktop/prime@2x-370w.webp 2x
+                    "
+                    media="(min-width: 1200px)" 
+                    type="image/webp"/>
+
+                    <source srcset="
+                    ./imag/desktop/prime-370w.jpg 1x,
+                    ./imag/desktop/prime@2x-370w.jpg 2x
+                    "
+                    media="(min-width: 1200px)"/>
+
+                    <source srcset="
+                    ./imag/tablet/prime@1-354w.webp 1x,
+                    ./imag/tablet/prime@2x-354w.webp 2x
+                    "
+                    media="(min-width: 768px)" 
+                    type="image/webp"/>
+    
+                    <source srcset="
+                    ./imag/tablet/prime-354w.jpg 1x,
+                    ./imag/tablet/prime@2x-354w.jpg 2x
+                    "
+                    media="(min-width: 768px)"/>
+    
+                    <source srcset="
+                    ./imag/mobile/prime@1-450w.webp 1x,
+                    ./imag/mobile/prime@2x-450w.webp 2x
+                    "
+                    media="(max-width: 767px)" 
+                    type="image/webp"/>
+
+                    <source srcset="
+                    ./imag/mobile/prime-450w.jpg 1x,
+                    ./imag/mobile/prime@2x-450w.jpg 2x
+                    "
+                    media="(max-width: 767px)"/>  
+                    <img 
+                    loaling="lazy"
+                    srcset="
+                    ./imag/desktop/prime@1-370w.webp 1x,
+                    ./imag/desktop/prime@2x-370w.webp 2x,
+  
+                    ./imag/desktop/prime-370w.jpg 1x,
+                    ./imag/desktop/prime@2x-370w.jpg 2x,
+  
+                    ./imag/tablet/prime@1-354w.webp 1x,
+                    ./imag/tablet/prime@2x-354w.webp 2x,
+                    
+                    ./imag/tablet/prime-354w.jpg 1x,
+                    ./imag/tablet/prime@2x-354w.jpg 2x,
+  
+                    ./imag/mobile/prime@1-450w.webp 1x,
+                    ./imag/mobile/prime@2x-450w.webp 2x,
+                    
+                    ./imag/mobile/prime-450w.jpg 1x,
+                    ./imag/mobile/prime@2x-450w.jpg 2x
+                   "
+                   src="./imag/desktop/prime-370w.jpg" alt="prime" width="370" 
+                     sizes="(min-width: 1200px) 100vw, 
+                    (min-width: 768px) 50vw,
+                    (min-width: 480px) 25vw, 100vw"
+                    
+                  /></picture>
+
                   <p class="gallery-desc">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -262,7 +491,74 @@
             <li class="gallery-item">
               <a class="gallery-link link" href="#">
                 <div class="galler-parent">
-                  <img src="./imag/desktop/boxes-450w.jpg" alt="boxes" width="370" />
+                  <picture>
+               
+                    <source srcset="
+                    ./imag/desktop/boxes@1-370w.webp 1x,
+                    ./imag/desktop/boxes@2x-370w.webp 2x
+                    "
+                    media="(min-width: 1200px)" 
+                    type="image/webp"/>
+
+                    <source srcset="
+                    ./imag/desktop/boxes-370w.jpg 1x,
+                    ./imag/desktop/boxes@2x-370w.jpg 2x
+                    "
+                    media="(min-width: 1200px)"/>
+
+                    <source srcset="
+                    ./imag/tablet/boxes@1-354w.webp 1x,
+                    ./imag/tablet/boxes@2x-354w.webp 2x
+                    "
+                    media="(min-width: 768px)" 
+                    type="image/webp"/>
+    
+                    <source srcset="
+                    ./imag/tablet/boxes-354w.jpg 1x,
+                    ./imag/tablet/boxes@2x-354w.jpg 2x
+                    "
+                    media="(min-width: 768px)"/>
+    
+                    <source srcset="
+                    ./imag/mobile/boxes@1-450w.webp 1x,
+                    ./imag/mobile/boxes@2x-450w.webp 2x
+                    "
+                    media="(max-width: 767px)" 
+                    type="image/webp"/>
+
+                    <source srcset="
+                    ./imag/mobile/boxes-450w.jpg 1x,
+                    ./imag/mobile/boxes@2x-450w.jpg 2x
+                    "
+                    media="(max-width: 767px)"/>  
+                    <img 
+                    loaling="lazy"
+                    srcset="
+                    ./imag/desktop/boxes@1-370w.webp 1x,
+                    ./imag/desktop/boxes@2x-370w.webp 2x,
+  
+                    ./imag/desktop/boxes-370w.jpg 1x,
+                    ./imag/desktop/boxes@2x-370w.jpg 2x,
+  
+                    ./imag/tablet/boxes@1-354w.webp 1x,
+                    ./imag/tablet/boxes@2x-354w.webp 2x,
+                    
+                    ./imag/tablet/boxes-354w.jpg 1x,
+                    ./imag/tablet/boxes@2x-354w.jpg 2x,
+  
+                    ./imag/mobile/boxes@1-450w.webp 1x,
+                    ./imag/mobile/boxes@2x-450w.webp 2x,
+                    
+                    ./imag/mobile/boxes-450w.jpg 1x,
+                    ./imag/mobile/boxes@2x-450w.jpg 2x
+                   "
+                   src="./imag/desktop/boxes-370w.jpg" alt="boxes" width="370" 
+                     sizes="(min-width: 1200px) 100vw, 
+                    (min-width: 768px) 50vw,
+                    (min-width: 480px) 25vw, 100vw"
+                    
+                  /></picture>
+
                   <p class="gallery-desc">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -278,11 +574,75 @@
             <li class="gallery-item">
               <a class="gallery-link link" href="#">
                 <div class="galler-parent">
-                  <img
-                    src="./imag/desktop/insp-borders-370w.jpg"
-                    alt="Inspiration has no Borders"
-                    width="370"
-                  />
+
+                  <picture>
+               
+                    <source srcset="
+                    ./imag/desktop/insp-borders@1-370w.webp 1x,
+                    ./imag/desktop/insp-borders@2x-370w.webp 2x
+                    "
+                    media="(min-width: 1200px)" 
+                    type="image/webp"/>
+
+                    <source srcset="
+                    ./imag/desktop/insp-borders-370w.jpg 1x,
+                    ./imag/desktop/insp-borders@2x-370w.jpg 2x
+                    "
+                    media="(min-width: 1200px)"/>
+
+                    <source srcset="
+                    ./imag/tablet/insp-borders@1-354w.webp 1x,
+                    ./imag/tablet/insp-borders@2x-354w.webp 2x
+                    "
+                    media="(min-width: 768px)" 
+                    type="image/webp"/>
+    
+                    <source srcset="
+                    ./imag/tablet/insp-borders-354w.jpg 1x,
+                    ./imag/tablet/insp-borders@2x-354w.jpg 2x
+                    "
+                    media="(min-width: 768px)"/>
+    
+                    <source srcset="
+                    ./imag/mobile/insp-borders@1-450w.webp 1x,
+                    ./imag/mobile/insp-borders@2x-450w.webp 2x
+                    "
+                    media="(max-width: 767px)" 
+                    type="image/webp"/>
+
+                    <source srcset="
+                    ./imag/mobile/insp-borders-450w.jpg 1x,
+                    ./imag/mobile/insp-borders@2x-450w.jpg 2x
+                    "
+                    media="(max-width: 767px)"/>  
+                    <img 
+                    loaling="lazy"
+                    srcset="
+                    ./imag/desktop/insp-borders@1-370w.webp 1x,
+                    ./imag/desktop/insp-borders@2x-370w.webp 2x,
+  
+                    ./imag/desktop/insp-borders-370w.jpg 1x,
+                    ./imag/desktop/insp-borders@2x-370w.jpg 2x,
+  
+                    ./imag/tablet/insp-borders@1-354w.webp 1x,
+                    ./imag/tablet/insp-borders@2x-354w.webp 2x,
+                    
+                    ./imag/tablet/insp-borders-354w.jpg 1x,
+                    ./imag/tablet/insp-borders@2x-354w.jpg 2x,
+  
+                    ./imag/mobile/insp-borders@1-450w.webp 1x,
+                    ./imag/mobile/insp-borders@2x-450w.webp 2x,
+                    
+                    ./imag/mobile/insp-borders-450w.jpg 1x,
+                    ./imag/mobile/insp-borders@2x-450w.jpg 2x
+                   "
+                   src="./imag/desktop/insp-borders-370w.jpg"
+                   alt="Inspiration has no Borders" width="370" 
+                     sizes="(min-width: 1200px) 100vw, 
+                    (min-width: 768px) 50vw,
+                    (min-width: 480px) 25vw, 100vw"
+                    
+                  /></picture>
                   <p class="gallery-desc">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -298,11 +658,74 @@
             <li class="gallery-item">
               <a class="gallery-link link" href="#">
                 <div class="galler-parent">
-                  <img
-                    src="./imag/desktop/limited-edition-370w.jpg"
-                    alt="Видання Limited Edition"
-                    width="370"
-                  />
+                  <picture>
+               
+                    <source srcset="
+                    ./imag/desktop/limited-edition@1-370w.webp 1x,
+                    ./imag/desktop/limited-edition@2x-370w.webp 2x
+                    "
+                    media="(min-width: 1200px)" 
+                    type="image/webp"/>
+
+                    <source srcset="
+                    ./imag/desktop/limited-edition-370w.jpg 1x,
+                    ./imag/desktop/limited-edition@2x-370w.jpg 2x
+                    "
+                    media="(min-width: 1200px)"/>
+
+                    <source srcset="
+                    ./imag/tablet/limited-edition@1-354w.webp 1x,
+                    ./imag/tablet/limited-edition@2x-354w.webp 2x
+                    "
+                    media="(min-width: 768px)" 
+                    type="image/webp"/>
+    
+                    <source srcset="
+                    ./imag/tablet/limited-edition-354w.jpg 1x,
+                    ./imag/tablet/limited-edition@2x-354w.jpg 2x
+                    "
+                    media="(min-width: 768px)"/>
+    
+                    <source srcset="
+                    ./imag/mobile/limited-edition@1-450w.webp 1x,
+                    ./imag/mobile/limited-edition@2x-450w.webp 2x
+                    "
+                    media="(max-width: 767px)" 
+                    type="image/webp"/>
+
+                    <source srcset="
+                    ./imag/mobile/limited-edition-450w.jpg 1x,
+                    ./imag/mobile/limited-edition@2x-450w.jpg 2x
+                    "
+                    media="(max-width: 767px)"/>  
+                    <img 
+                    loaling="lazy"
+                    srcset="
+                    ./imag/desktop/limited-edition@1-370w.webp 1x,
+                    ./imag/desktop/limited-edition@2x-370w.webp 2x,
+  
+                    ./imag/desktop/limited-edition-370w.jpg 1x,
+                    ./imag/desktop/limited-edition@2x-370w.jpg 2x,
+  
+                    ./imag/tablet/limited-edition@1-354w.webp 1x,
+                    ./imag/tablet/limited-edition@2x-354w.webp 2x,
+                    
+                    ./imag/tablet/limited-edition-354w.jpg 1x,
+                    ./imag/tablet/limited-edition@2x-354w.jpg 2x,
+  
+                    ./imag/mobile/limited-edition@1-450w.webp 1x,
+                    ./imag/mobile/limited-edition@2x-450w.webp 2x,
+                    
+                    ./imag/mobile/limited-edition-450w.jpg 1x,
+                    ./imag/mobile/limited-edition@2x-450w.jpg 2x
+                   "
+                   src="./imag/desktop/limited-edition-370w.jpg"
+                    alt="Видання Limited Edition" width="370" 
+                     sizes="(min-width: 1200px) 100vw, 
+                    (min-width: 768px) 50vw,
+                    (min-width: 480px) 25vw, 100vw"
+                    
+                  /></picture>
                   <p class="gallery-desc">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -318,7 +741,75 @@
             <li class="gallery-item">
               <a class="gallery-link link" href="#">
                 <div class="galler-parent">
-                  <img src="./imag/desktop/lab-370w.jpg" alt="Проєкт LAB" width="370" />
+                  <picture>
+               
+                    <source srcset="
+                    ./imag/desktop/lab@1-370w.webp 1x,
+                    ./imag/desktop/lab@2x-370w.webp 2x
+                    "
+                    media="(min-width: 1200px)" 
+                    type="image/webp"/>
+
+                    <source srcset="
+                    ./imag/desktop/lab-370w.jpg 1x,
+                    ./imag/desktop/lab@2x-370w.jpg 2x
+                    "
+                    media="(min-width: 1200px)"/>
+
+                    <source srcset="
+                    ./imag/tablet/lab@1-354w.webp 1x,
+                    ./imag/tablet/lab@2x-354w.webp 2x
+                    "
+                    media="(min-width: 768px)" 
+                    type="image/webp"/>
+    
+                    <source srcset="
+                    ./imag/tablet/lab-354w.jpg 1x,
+                    ./imag/tablet/lab@2x-354w.jpg 2x
+                    "
+                    media="(min-width: 768px)"/>
+    
+                    <source srcset="
+                    ./imag/mobile/lab@1-450w.webp 1x,
+                    ./imag/mobile/lab@2x-450w.webp 2x
+                    "
+                    media="(max-width: 767px)" 
+                    type="image/webp"/>
+
+                    <source srcset="
+                    ./imag/mobile/lab-450w.jpg 1x,
+                    ./imag/mobile/lab@2x-450w.jpg 2x
+                    "
+                    media="(max-width: 767px)"/>  
+                    <img 
+                    loaling="lazy"
+                    srcset="
+                    ./imag/desktop/lab@1-370w.webp 1x,
+                    ./imag/desktop/lab@2x-370w.webp 2x,
+  
+                    ./imag/desktop/lab-370w.jpg 1x,
+                    ./imag/desktop/lab@2x-370w.jpg 2x,
+  
+                    ./imag/tablet/lab@1-354w.webp 1x,
+                    ./imag/tablet/lab@2x-354w.webp 2x,
+                    
+                    ./imag/tablet/lab-354w.jpg 1x,
+                    ./imag/tablet/lab@2x-354w.jpg 2x,
+  
+                    ./imag/mobile/lab@1-450w.webp 1x,
+                    ./imag/mobile/lab@2x-450w.webp 2x,
+                    
+                    ./imag/mobile/lab-450w.jpg 1x,
+                    ./imag/mobile/lab@2x-450w.jpg 2x
+                   "
+                   src="./imag/desktop/lab-370w.jpg" alt="Проєкт LAB"  width="370" 
+                     sizes="(min-width: 1200px) 100vw, 
+                    (min-width: 768px) 50vw,
+                    (min-width: 480px) 25vw, 100vw"
+                    
+                  /></picture>
+
+                  
                   <p class="gallery-desc">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -334,10 +825,76 @@
             <li class="gallery-item">
               <a class="gallery-link link" href="#">
                 <div class="galler-parent">
-                  <img
-                    src="./imag/desktop/growing-business-370w.jpg"
-                    alt="Growing Business"
-                  />
+
+                  <picture>
+               
+                    <source srcset="
+                    ./imag/desktop/growing-business@1-370w.webp 1x,
+                    ./imag/desktop/growing-business@2x-370w.webp 2x
+                    "
+                    media="(min-width: 1200px)" 
+                    type="image/webp"/>
+
+                    <source srcset="
+                    ./imag/desktop/growing-business-370w.jpg 1x,
+                    ./imag/desktop/growing-business@2x-370w.jpg 2x
+                    "
+                    media="(min-width: 1200px)"/>
+
+                    <source srcset="
+                    ./imag/tablet/growing-business@1-354w.webp 1x,
+                    ./imag/tablet/growing-business@2x-354w.webp 2x
+                    "
+                    media="(min-width: 768px)" 
+                    type="image/webp"/>
+    
+                    <source srcset="
+                    ./imag/tablet/growing-business-354w.jpg 1x,
+                    ./imag/tablet/growing-business@2x-354w.jpg 2x
+                    "
+                    media="(min-width: 768px)"/>
+    
+                    <source srcset="
+                    ./imag/mobile/growing-business@1-450w.webp 1x,
+                    ./imag/mobile/growing-business@2x-450w.webp 2x
+                    "
+                    media="(max-width: 767px)" 
+                    type="image/webp"/>
+
+                    <source srcset="
+                    ./imag/mobile/growing-business-450w.jpg 1x,
+                    ./imag/mobile/growing-business@2x-450w.jpg 2x
+                    "
+                    media="(max-width: 767px)"/>  
+                    <img 
+                    loaling="lazy"
+                    srcset="
+                    ./imag/desktop/growing-business@1-370w.webp 1x,
+                    ./imag/desktop/growing-business@2x-370w.webp 2x,
+  
+                    ./imag/desktop/growing-business-370w.jpg 1x,
+                    ./imag/desktop/growing-business@2x-370w.jpg 2x,
+  
+                    ./imag/tablet/growing-business@1-354w.webp 1x,
+                    ./imag/tablet/growing-business@2x-354w.webp 2x,
+                    
+                    ./imag/tablet/growing-business-354w.jpg 1x,
+                    ./imag/tablet/growing-business@2x-354w.jpg 2x,
+  
+                    ./imag/mobile/growing-business@1-450w.webp 1x,
+                    ./imag/mobile/growing-business@2x-450w.webp 2x,
+                    
+                    ./imag/mobile/growing-business-450w.jpg 1x,
+                    ./imag/mobile/growing-business@2x-450w.jpg 2x
+                   "
+                   src="./imag/desktop/growing-business-370w.jpg"
+                   alt="Growing Business" width="370" 
+                     sizes="(min-width: 1200px) 100vw, 
+                    (min-width: 768px) 50vw,
+                    (min-width: 480px) 25vw, 100vw"
+                    
+                  /></picture>
+                 
                   <p class="gallery-desc">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу

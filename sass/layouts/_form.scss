@@ -6,6 +6,12 @@
   align-items: center;
   justify-content: center;
 
+  @media screen and (max-width:479px) {
+    width: 320px;
+    padding: 40px 20px;
+   
+  }
+
   @media screen and (min-width:1200px) {
     width: 528px;
     
@@ -115,6 +121,12 @@ label {
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #757575;
+
+  @media screen and (max-width:479px) {
+   font-size: 9px;
+   line-height: 1.17;
+  }
+
   @media screen and (min-width:1200px) {
     font-size: 14px;
   line-height: 1.71;
@@ -167,6 +179,10 @@ label {
   &:focus {
   background: $hover-btn;
  }
+ 
+ @media screen and (max-width:479px) {
+  margin-left: 40px;
+}
 
  @media screen and (min-width:1200px) {
   margin-left: 124px;

@@ -712,6 +712,7 @@ body {
 
 .menu {
   position: fixed;
+  height: 100vh;
 }
 
 .menu-container {
@@ -1090,7 +1091,7 @@ body {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  width: 100%;
+  margin: auto;
 }
 @media screen and (min-width: 768px) {
   .command-list {
@@ -1104,7 +1105,7 @@ body {
 }
 
 .command-img {
-  background: url(4853jpg);
+  background: #fff;
   border-radius: 0px;
 }
 
@@ -1554,6 +1555,12 @@ body {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
+@media screen and (max-width: 479px) {
+  .modal {
+    width: 320px;
+    height: 609px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528px;
@@ -1597,6 +1604,12 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+@media screen and (max-width: 479px) {
+  .form {
+    width: 320px;
+    padding: 40px 20px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .form {
@@ -1706,6 +1719,12 @@ label {
   letter-spacing: 0.03em;
   color: #757575;
 }
+@media screen and (max-width: 479px) {
+  .checkbox-text {
+    font-size: 9px;
+    line-height: 1.17;
+  }
+}
 @media screen and (min-width: 1200px) {
   .checkbox-text {
     font-size: 14px;
@@ -1760,6 +1779,11 @@ label {
 }
 .form-btn:focus {
   background: #188ce8;
+}
+@media screen and (max-width: 479px) {
+  .form-btn {
+    margin-left: 40px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .form-btn {

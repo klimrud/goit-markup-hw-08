@@ -681,6 +681,7 @@ body {
 
 .menu {
   position: fixed;
+  height: 100vh;
 }
 
 .menu-container {
@@ -794,20 +795,22 @@ body {
   color: #2196f3;
 }
 
-.main {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 @media screen and (max-width: 769.9px) {
   .main {
-    padding-top: 60px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
+    margin-top: 60px;
   }
 }
 @media screen and (min-width: 768px) {
   .main {
-    padding-top: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main {
+    margin-bottom: 94px;
+    margin-top: 94px;
   }
 }
 
@@ -840,7 +843,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-bottom: 40px;
+    margin-bottom: 14px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -852,7 +855,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 34px;
   }
 }
 
@@ -912,6 +915,11 @@ body {
 
 .gallery-item {
   height: 100%;
+}
+@media (max-width: 767px) {
+  .gallery-item {
+    margin-bottom: 30px;
+  }
 }
 @media screen and (min-width: 768px) {
   .gallery-item {

@@ -50,6 +50,7 @@
 .gallery-link {
   display: flex;
   flex-direction: column;
+  
 
   &:hover,
   &:focus {
@@ -87,13 +88,17 @@
 
 
 .gallery-subtitle {
-  flex-grow: 1;
+  
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
   border: 1px solid #eeeeee;
   border-top: none;
+
+  @media screen and (min-width: 768px) {
+  flex-grow: 1;
+  }
 }
 
 .gallery-title {
